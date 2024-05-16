@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import WhatWeDo from './components/What-we-do';
+import Actions from './components/Actions';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+   
+    <>
+      
+      <Parallax pages={5} style={{background: "url('https://images.unsplash.com/photo-1494386346843-e12284507169?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')no-repeat center / cover"}}>
+        <ParallaxLayer offset={0}  style={{background:"url('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')no-repeat center / cover"}}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Header></Header>
+        <Banner/>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} className='center'  >
+        <WhatWeDo/>
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} className='center' >
+        <Actions/>
+        </ParallaxLayer>
+        <ParallaxLayer offset={3} className='center'  style={{background:"#e57373"}}>
+        <div>Page 4</div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={4} className='center'  >
+        <div>Page 5</div>
+        </ParallaxLayer>
+      </Parallax>
+    </>
   );
 }
 
