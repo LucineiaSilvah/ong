@@ -7,7 +7,7 @@
   height: 100%;
 }
 .banner h2{
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 @media screen and (min-width:0) and (max-width:720px) {

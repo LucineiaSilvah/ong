@@ -11,9 +11,7 @@
   list-style: none;
 }
 .list .listItems li {
-  margin: 20px;
-  padding: 5px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 .list .listItems li a {
   color: #004aad;
