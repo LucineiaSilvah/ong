@@ -1,0 +1,18 @@
+.rodape{
+  display: flex;
+  width: 100%;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #004aad;
+}
+.rodape img{
+ width: 30%;
+}
+.rodape ul li{
+ margin: 10px;
+
+ letter-spacing: 2px;
+ padding: 10px;
+}

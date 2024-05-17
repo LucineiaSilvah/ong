@@ -6,6 +6,7 @@ import Banner from './components/Banner';
 import WhatWeDo from './components/What-we-do';
 import Actions from './components/Actions';
 import Voluntarios from './components/Volunteers';
+import Rodape from './components/Footer';
 
 function App() {
   return (
@@ -28,8 +29,8 @@ function App() {
         <Voluntarios/>
         </ParallaxLayer>
         
-        <ParallaxLayer offset={4} className='center'  >
-        <div>Page 5</div>
+        <ParallaxLayer offset={4} className='bottom'  >
+       <Rodape/>
         </ParallaxLayer>
       </Parallax>
     </>
