@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import WhatWeDo from './components/What-we-do';
 import Actions from './components/Actions';
+import Voluntarios from './components/Volunteers';
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
         <ParallaxLayer offset={2} className='center' >
         <Actions/>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} className='center'  style={{background:"#e57373"}}>
-        <div>Page 4</div>
+        <ParallaxLayer offset={3} >
+        <Voluntarios/>
         </ParallaxLayer>
+        
         <ParallaxLayer offset={4} className='center'  >
         <div>Page 5</div>
         </ParallaxLayer>

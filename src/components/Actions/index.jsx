@@ -20,7 +20,7 @@ const divStyle = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  height: "800px",
+  height: "500px",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
 };

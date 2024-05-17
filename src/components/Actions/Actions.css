@@ -12,3 +12,15 @@
   background:rgba(176, 169, 169, 0.6);
   padding: 20px;
 }
+
+
+@media screen and (min-width:0) and (max-width:360px) {
+
+  .descricao{
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width:720px){
+
+  
+}
