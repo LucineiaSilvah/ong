@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 10px;
- 
+ min-width: 200px;
 
 }
 .foto{
@@ -23,7 +23,7 @@
 
 @media screen and (min-width:0) and (max-width:360px) {
   .card{
-    width: 90%;
+    width: 100%;
     height: 180px;
     display: flex;
   font-size: 16px;
