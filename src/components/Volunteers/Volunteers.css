@@ -60,11 +60,7 @@
 
   }
   .voluntarios .lista{
-   align-content:flex-start;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: repeat(2,2fr);
-    align-items: flex-start;
+   flex-wrap: wrap;
   }
   .voluntarios button{
     width:250px ;
@@ -75,8 +71,6 @@
   padding-bottom:40px ;}
 }
 @media screen and (min-width:720px){
-  .voluntarios .lista{
-    grid-template-columns: repeat(4,1fr);
-  }
+ 
   
 }
