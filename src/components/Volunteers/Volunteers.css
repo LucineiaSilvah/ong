@@ -54,7 +54,7 @@
   text-shadow: -5px 5px 10px  #101212;
   
 }
-@media screen and (min-width:0) and (max-width:360px) {
+@media screen and (min-width:0) and (max-width:720px) {
   .voluntarios{
     font-size: 1.2rem;
 
