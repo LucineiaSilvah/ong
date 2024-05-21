@@ -25,3 +25,13 @@
  letter-spacing: 2px;
  padding: 5px;
 }
+@media screen and (min-width:0) and (max-width:720px) {
+.rodape ul{
+  flex-direction: column;
+
+}
+.rodape ul li{
+  font-size: 16px;
+  padding: 0;
+ }
+}
