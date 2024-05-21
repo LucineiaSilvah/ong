@@ -4,8 +4,8 @@ function Rodape(){
   return(
     <>
     <footer className='rodape'>
-     <img src={logo} alt="logo"/>
      <ul>
+     <img src={logo} alt="logo"/>
       <li>parceiro1</li>
       <li>parceiro2</li>
       <li>parceiro3</li>
