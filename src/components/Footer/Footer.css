@@ -6,11 +6,11 @@
   align-items: center;
   flex-direction: column;
   color: #004aad;
-
+  height: 150px;
 
 }
 .rodape img{
- width: 200px;
+ width: 180px;
  
 }
 .rodape ul li{
