@@ -52,7 +52,7 @@ function Home() {
         <ParallaxLayer className='bottom' offset={5} >
         
       
-        <Contact/>  
+        <Contact />  
         <Footer/>
         </ParallaxLayer>
         

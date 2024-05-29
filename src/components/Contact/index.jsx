@@ -2,7 +2,7 @@ import './Contato.css'
 export default function Contact(){
   return(
     <>
-    <section className="contato flex">
+    <section style={{background: "linear-gradient(#b3cff5,rgba(255,255,255,0.1))"}} className="contato flex">
       
       <h2>Contato</h2>
       <div className='redes'>
