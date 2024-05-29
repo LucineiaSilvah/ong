@@ -37,7 +37,7 @@ function NavBar() {
               <Link to="/src/components/Actions">Eventos & Ações</Link>
             </li>
             <li>
-              <Link to="#contact">Contato</Link>
+              <Link to="/src/components/Contact">Contato</Link>
             </li>
           </ul>
         </nav>

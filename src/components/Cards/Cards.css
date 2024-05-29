@@ -24,8 +24,8 @@
 
 @media screen and (min-width:0) and (max-width:360px) {
   .card{
-    width: 80%;
-    height: 180px;
+    width: 90%;
+    height: 200px;
     display: flex;
   font-size: 16px;
 
@@ -43,6 +43,16 @@
     border-radius: 100%;
     overflow: hidden;
     object-fit: cover;
+  }
+  
+}
+
+@media screen and (min-width:360px) and (max-width:720px) {
+  .card{
+    width: 70%;
+   height: 220px;
+  
+    
   }
   
 }

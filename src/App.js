@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import AboutVolunteers from "./pages/AboutVolunteers";
 import Donate from "./pages/Donate";
 import Actions from "./components/Actions";
+import Contact from "./components/Contact";
 
 
 
@@ -29,6 +30,7 @@ function App() {
     <Route path="/src/pages/Donate" element={<Donate/>}/>
    
     <Route path="/src/components/Actions" element={<Actions/>}/>
+    <Route path="/src/components/Contact" element={<Contact/>}/>
    </Routes>
    <Footer/>
    </div>

@@ -26,7 +26,8 @@
 
 }
 .voluntarios button{
-  background: #2e899b;
+  background: #004aad;
+  margin: 10px;
   width: 400px;
   font-size: 18px;
   border: none;
@@ -37,7 +38,7 @@
   box-shadow: 5px 5px 30px  #223235;
 }
 .voluntarios button:hover{
-  background: #1f6976;
+  background: #4e68b7;
 }
 .voluntarios p{
   font-size: 1rem;
