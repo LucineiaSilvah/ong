@@ -1,6 +1,11 @@
 .contato {
-height: auto;
+
 font-size: 1.5rem;
+}
+.contato h2{
+
+  color: #004AAD;
+  text-shadow: -2px 2px 4px #fff;
 }
 .contato form{
   width:500px;
@@ -50,9 +55,12 @@ font-size: 1.5rem;
 .redes i{
   font-size: xx-large;
 }
-@media screen and (min-width:0) and (min-width:720px){
+@media screen and (min-width:0) and (max-width:720px){
  .contato {
   font-size: 1rem;
+ }
+ .contato form label,button{
+  font-size: 16px;
  }
 .contato{
   height: auto;
