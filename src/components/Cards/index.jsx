@@ -9,7 +9,7 @@ function Card({vol}){
       
     </div>
     <p>{vol.nome}</p>
-    <p>Voluntario desde: {vol.data}</p>
+    <p>voluntarios desde: {vol.data}</p>
    </div>
   
   

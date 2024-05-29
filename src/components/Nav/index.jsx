@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Nav.css";
 import { useState } from "react";
 function NavBar() {
@@ -16,22 +17,25 @@ function NavBar() {
         <nav className="list">
           <ul className="listItems">
             <li>
-              <a href="#services">O que Fazemos</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#sobre">Quem Somos</a>
+              <Link to="#services">O que Fazemos</Link>
             </li>
             <li>
-              <a href="#contact">Voluntarios</a>
+              <Link to="/src/pages/About">Quem Somos</Link>
             </li>
             <li>
-              <a href="#contact">Doações</a>
+              <Link to="#contact">Voluntarios</Link>
             </li>
             <li>
-              <a href="#contact">Eventos & Ações</a>
+              <Link to="#contact">Doações</Link>
             </li>
             <li>
-              <a href="#contact">Contato</a>
+              <Link to="#contact">Eventos & Ações</Link>
+            </li>
+            <li>
+              <Link to="#contact">Contato</Link>
             </li>
           </ul>
         </nav>
