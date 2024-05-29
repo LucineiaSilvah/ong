@@ -20,19 +20,19 @@ function NavBar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="#services">O que Fazemos</Link>
+              <Link to="/src/components/What-we-do">O que Fazemos</Link>
             </li>
             <li>
               <Link to="/src/pages/About">Quem Somos</Link>
             </li>
             <li>
-              <Link to="#contact">Voluntarios</Link>
+              <Link to="/src/pages/AboutVolunteers">Voluntarios</Link>
             </li>
             <li>
-              <Link to="#contact">Doações</Link>
+              <Link to="/src/pages/Donate">Doações</Link>
             </li>
             <li>
-              <Link to="#contact">Eventos & Ações</Link>
+              <Link to="/src/components/Actions">Eventos & Ações</Link>
             </li>
             <li>
               <Link to="#contact">Contato</Link>

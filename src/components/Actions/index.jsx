@@ -20,12 +20,12 @@ const divStyle = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  height: "500px",
+  height: "100vh",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
 };
 const spanStyle = {
-  fontSize: "20px",
+  fontSize: "16px",
   background: "#ccc",
   color: "black",
  
@@ -33,14 +33,15 @@ const spanStyle = {
 const Actions = () => {
   return (
     
-    <div className="slide-container">
+    <div className="slide-container flex">
+    
       <Fade>
         {SlideImages.map((image, index) => (
           <div key={index}>
             <div style={{ ...divStyle, backgroundImage: `url(${image.url})` }}>
               <div className="descricao">
-                
-        <h2>Eventos & Ações</h2>
+              <h2>Eventos & Ações</h2>
+
               <p style={{ spanStyle }}>{image.caption}</p>
               </div>
         

@@ -1,6 +1,6 @@
 import './Footer.css';
 import logo from '../Header/Impsom.png';
-function Rodape(){
+function Footer(){
   return(
     <>
     <footer className='rodape'>
@@ -17,4 +17,4 @@ function Rodape(){
     </>
   )
 }
-export default Rodape;
+export default Footer;
