@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import logo from '../../Impsom.png'
 import { useState } from "react";
 function NavBar() {
   const [active, setMode] = useState(false);
@@ -8,6 +9,7 @@ function NavBar() {
   };
   return (
     <div className="Menu">
+      <img src={logo} alt="logo"/>
       <div className="menuIcon">
       <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
         <div className="hamburguer hamburguerIcon"> </div>

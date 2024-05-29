@@ -1,5 +1,5 @@
 import './Footer.css';
-import logo from '../Header/Impsom.png';
+import logo from '../../Impsom.png';
 function Footer(){
   return(
     <>
